@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8" />
+        <meta
+            name="viewport"
+            content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=yes"
+        />
+        <title>
+            Сервисный центр «В РЕМОНТЕ» | Ремонт телефонов, планшетов, ноутбуков
+        </title>
+        <!-- Предзагрузка шрифтов и стилей -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,600;14..32,700;14..32,800&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <header class="header">
+            <div class="container">
+                <div class="logo">В РЕМОНТЕ <span>●</span> СЕРВИСНЫЙ ЦЕНТР</div>
+                <div class="header-phone">
+                    <a href="tel:+79967311496">📞 8-996-731-14-96</a>
+                </div>
+                <button class="btn-call" id="openModalBtn">
+                    Оставить заявку
+                </button>
+            </div>
+        </header>
+
+        <section class="hero">
+            <div class="container hero-grid">
+                <div class="hero-content">
+                    <div class="hero-badge">⚡ СРОЧНЫЙ РЕМОНТ ОТ 60 МИН</div>
+                    <h1>
+                        Чиним <span>телефоны, планшеты</span> и ноутбуки за 1
+                        час
+                    </h1>
+                    <div class="hero-desc">
+                        Бесплатная диагностика. Гарантия до 1 года. Оригинальные
+                        запчасти.
+                    </div>
+                    <div class="hero-stats">
+                        <div class="stat">
+                            ⚡ от 60 мин <small>срочный ремонт</small>
+                        </div>
+                        <div class="stat">
+                            🔓 от 15 мин <small>разблокировка</small>
+                        </div>
+                        <div class="stat">
+                            ✅ Гарантия <small>на все работы</small>
+                        </div>
+                    </div>
+                    <div class="hero-phone">📱 8-996-731-14-96</div>
+                    <button class="btn-main" id="openModalBtn2">
+                        Записаться на ремонт →
+                    </button>
+                </div>
+                <div
+                    style="
+                        flex: 0.8;
+                        min-width: 200px;
+                        background: rgba(255, 255, 255, 0.03);
+                        border-radius: 48px;
+                        padding: 24px;
+                        text-align: center;
+                    "
+                >
+                    <div style="font-size: 5rem">🛠️</div>
+                    <div style="font-weight: 600; margin-top: 12px">
+                        Диагностика 0₽
+                    </div>
+                    <div style="font-size: 0.85rem">при ремонте</div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Услуги 4 карточки -->
+        <section class="services">
+            <div class="container">
+                <div class="section-title">Что ремонтируем</div>
+                <div class="section-sub">
+                    Любые поломки — от замены стекла до сложной пайки
+                </div>
+                <div class="cards">
+                    <div class="card">
+                        <div class="card-icon">📱</div>
+                        <h3>Телефоны</h3>
+                        <p>
+                            Замена экрана, аккумулятора, разъёма, восстановление
+                            после воды, перепрошивка.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">📟</div>
+                        <h3>Планшеты</h3>
+                        <p>
+                            Ремонт матрицы, кнопок, корпуса, чистка, замена
+                            стекла.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">💻</div>
+                        <h3>Ноутбуки</h3>
+                        <p>
+                            Чистка от пыли, замена термопасты, клавиатуры,
+                            матрицы, восстановление питания.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon">🎧</div>
+                        <h3>Аксессуары</h3>
+                        <p>
+                            Ремонт наушников, замена разъёмов, пауэрбанков,
+                            гарнитур.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Преимущества + срочный блок -->
+        <section class="advantages">
+            <div class="container">
+                <div class="section-title">Почему выбирают нас</div>
+                <div class="grid-adv">
+                    <div class="adv-item">
+                        <div class="adv-icon">⏱️</div>
+                        Срочный ремонт от 60 мин — чиним при вас
+                    </div>
+                    <div class="adv-item">
+                        <div class="adv-icon">🔓</div>
+                        Разблокировка за 15 минут (пароль, графический ключ)
+                    </div>
+                    <div class="adv-item">
+                        <div class="adv-icon">🔧</div>
+                        Оригинальные запчасти, никаких подделок
+                    </div>
+                    <div class="adv-item">
+                        <div class="adv-icon">📜</div>
+                        Гарантия на все виды работ
+                    </div>
+                    <div class="adv-item">
+                        <div class="adv-icon">💰</div>
+                        Покупка неисправных устройств на запчасти
+                    </div>
+                </div>
+                <div class="urgent-block">
+                    <h3>⚡ СРОЧНЫЙ РЕМОНТ ⚡</h3>
+                    <div class="badge-urgent">РАЗБЛОКИРОВКА от 15 МИНУТ</div>
+                    <p style="font-size: 1.2rem; font-weight: 500">
+                        Приезжайте сейчас — большинство поломок устраняем в
+                        течение часа в вашем присутствии
+                    </p>
+                    <button
+                        class="btn-main"
+                        style="margin-top: 20px; background: #b45309"
+                        id="openModalBtn3"
+                    >
+                        Нужно быстро →
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Процесс работы -->
+        <section class="workflow">
+            <div class="container">
+                <div class="section-title">Как мы работаем</div>
+                <div class="steps">
+                    <div class="step">
+                        <div class="step-num">1</div>
+                        <h4>Приносите</h4>
+                        <p>В сервис или вызовите курьера</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">2</div>
+                        <h4>Диагностика 0₽</h4>
+                        <p>Называем причину и точную цену</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">3</div>
+                        <h4>Согласование</h4>
+                        <p>Ремонт только с вашего одобрения</p>
+                    </div>
+                    <div class="step">
+                        <div class="step-num">4</div>
+                        <h4>Выдача с гарантией</h4>
+                        <p>Проверка, чек и гарантийный талон</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Доп услуги: распечатка ламинирование -->
+        <section class="extra">
+            <div class="container">
+                <div class="section-title" style="color: white">
+                    Дополнительные услуги
+                </div>
+                <div class="extra-list">
+                    <span>🖨️ Распечатка</span>
+                    <span>📄 Ламинирование</span>
+                    <span>📑 Ксерокопия</span>
+                    <span>🖨️ Заправка картриджей</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Продажа на запчасти -->
+        <section class="buy-parts">
+            <div class="container">
+                <h2>📱 Нерабочее устройство?</h2>
+                <p
+                    style="
+                        font-size: 1.1rem;
+                        max-width: 600px;
+                        margin: 16px auto;
+                    "
+                >
+                    Разбитый экран, не включается, утонул в воде?
+                    <strong>Выкупим на запчасти</strong> — честная оценка при
+                    вас. Деньги или скидка на ремонт.
+                </p>
+                <button class="btn-outline" id="openModalBtn4">
+                    Продать телефон в запчасти
+                </button>
+            </div>
+        </section>
+
+        <!-- Контакты -->
+        <section class="contacts">
+            <div class="container">
+                <div class="section-title">Контакты и адрес</div>
+                <div class="contacts-flex">
+                    <div class="contact-info">
+                        <p>
+                            📞
+                            <strong class="phone-large"
+                                ><a
+                                    href="tel:+79967311496"
+                                    style="
+                                        text-decoration: none;
+                                        color: #1e293b;
+                                    "
+                                    >8-996-731-14-96</a
+                                ></strong
+                            >
+                        </p>
+                        <p>📱 WhatsApp / Telegram: тот же номер</p>
+                        <p>🕒 Пн–Вс: 10:00 – 20:00 (без выходных)</p>
+                        <p>
+                            📍 г. [Ваш Город], ул. Центральная, 12 (ТЦ "Ремонт
+                            Плюс", 2 этаж)
+                        </p>
+                        <button
+                            class="btn-call"
+                            style="background: #ff6b2b; margin-top: 10px"
+                            id="openModalBtn5"
+                        >
+                            Позвонить или написать
+                        </button>
+                    </div>
+                    <div class="map-placeholder">
+                        🗺️ Яндекс Карты: Сервисный центр "В РЕМОНТЕ"
+                        (интерактивная карта)
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <div class="container">
+                © Сервисный центр «В РЕМОНТЕ» — ремонт, диагностика, покупка на
+                запчасти. Распечатка • Ламинирование • Ксерокопия <br />
+                Гарантия качества. Официальные компоненты.
+            </div>
+        </footer>
+
+        <!-- Модальное окно -->
+        <div id="callbackModal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal" id="closeModal">&times;</span>
+                <h3 style="margin-bottom: 12px">📞 Оставить заявку</h3>
+                <p style="margin-bottom: 18px">
+                    Мы перезвоним в течение 10 минут
+                </p>
+                <form id="modalForm">
+                    <input type="text" placeholder="Ваше имя" required />
+                    <input type="tel" placeholder="Номер телефона" required />
+                    <button type="submit">Отправить заявку</button>
+                </form>
+                <p style="font-size: 0.7rem; margin-top: 16px">
+                    Нажимая на кнопку, вы соглашаетесь с политикой обработки
+                    данных
+                </p>
+            </div>
+        </div>
+        <!-- кнопки все также работают + все блоки соответствуют вывеске -->
+        <script src="./script.js"></script>
+    </body>
+</html>
